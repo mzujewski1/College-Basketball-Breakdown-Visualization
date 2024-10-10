@@ -2,17 +2,47 @@
 
 ## Data
 
-The data I propose to visualize for my project is ...
+
+The [College Basketball Team Performance Dataset](https://www.kaggle.com/datasets/andrewsundberg/college-basketball-dataset) provides a detailed breakdown of team performance during the 2024 college basketball season. It includes advanced metrics that evaluate offensive and defensive efficiency, shooting percentages, rebounding statistics, and other key indicators of team success.
+
+### Dataset Breakdown:
+
+- **TEAM**: The name of the team.
+- **CONF**: The conference the team belongs to.
+- **G**: Number of games played.
+- **W**: Number of games won.
+- **ADJOE**: Adjusted Offensive Efficiency (points per 100 possessions).
+- **ADJDE**: Adjusted Defensive Efficiency (points allowed per 100 possessions).
+- **EFG%**: Effective Field Goal Percentage (adjusted for 3-point shots).
+- **3P%**: Three-point shooting percentage.
+- **2P%**: Two-point shooting percentage.
+- **ORB**: Offensive Rebound Percentage.
+- **DRB**: Defensive Rebound Percentage.
+- **FTR**: Free Throw Rate (free throws made per field goal attempt).
+- **WAB**: Wins Above Bubble (a measure of performance relative to tournament qualification).
+- **SEED**: The team's tournament seed.
+
 
 
 ## Questions & Tasks
 
 The following tasks and questions will drive the visualization and interaction decisions for this project:
 
- * (insert your question or task here) How does the X vary over time?
- * (insert your question or task here) Is there any correlation between X and Y?
- * (insert your question or task here) Are there interesting spatial patterns in X?
- * (insert your question or task here) How many X are there across different Y?
+1. **How do different conferences compare and stack up?**  
+   Visualize and compare the number of tournament teams and their seeds across different conferences to see which conferences perform best.
+
+2. **Are conferences top-heavy or balanced in their team performance?**  
+   Examine whether conferences have a few top teams that dominate or if performance is more evenly distributed across teams.
+
+3. **What is the distribution of tournament teams within and across conferences?**  
+   Explore how tournament teams are spread within each conference and compare that to the overall distribution.
+
+4. **How do different seeded teams compare within a conference and across all conferences?**  
+   Analyze how teams with different seeds perform within a single conference and compare this to other conferences.
+
+5. **What do conference stat averages look like?**  
+   Calculate and visualize average stats (e.g., offensive/defensive efficiency, shooting percentages) for each conference to provide a holistic view of conference strengths.
+
 
 ## Sketches
 
