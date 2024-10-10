@@ -45,29 +45,24 @@ The following tasks and questions will drive the visualization and interaction d
 
 
 ## Sketches
+[![Sketch](https://lh3.googleusercontent.com/pw/AP1GczPNMogbMspJSh9ucclf6xDOiCJ14V725D5VTRJqjtmmCuFufjMsxgi6hyI8iogMp44Zzm5NBddTTBauuCCFBxrbCjpJ_2fQatbmwLK63QhmVENybQ=w2400)](https://lh3.googleusercontent.com/pw/AP1GczPNMogbMspJSh9ucclf6xDOiCJ14V725D5VTRJqjtmmCuFufjMsxgi6hyI8iogMp44Zzm5NBddTTBauuCCFBxrbCjpJ_2fQatbmwLK63QhmVENybQ=w2400)
 
-(insert one or more hand-drawn sketches of interactive visualizations that you imagine)
-(describe each sketch - how is the data visualized, what are the interactions, and how do these relate to the questions/tasks)
+The sketch represents the second design iteration where interlocking boxes are used. The whole square area represents all the teams in the conferences, allowing the viewer to easily compare different conferences. The teams are placed inside the conference blocks, displaying their seed numbers and potentially a team logo. This layout aims to make comparisons clearer by grouping teams within their respective conferences. 
 
-
-## Prototypes
-
-I’ve created a proof of concept visualization of this data. It's a ... and it shows ...
-
-[![image](https://user-images.githubusercontent.com/68416/65240758-9ef6c980-daff-11e9-9ffa-e35fc62683d2.png)](https://vizhub.com/curran/eab039ad1765433cb51aad167d9deae4)
-
-(please put a screenshot of one or more visualizations of this dataset you already made, for previous assignments, and link to them)
-
-You can put images into here by pasting them into issues.
-
-You can make images into links like this:
-
-```
-[![image](https://user-images.githubusercontent.com/68416/65240758-9ef6c980-daff-11e9-9ffa-e35fc62683d2.png)](https://vizhub.com/curran/eab039ad1765433cb51aad167d9deae4)
-```
+I also plan to create a deeper view where the user can focus on a single conference to compare teams in detail. Hovering over a team will reveal additional statistics, such as adjusted offensive and defensive efficiency.
 
 
-Also, you can study the [source](https://raw.githubusercontent.com/curran/dataviz-project-template-proposal/master/README.md) to figure out Markdown formatting. You can use the GitHub built-in editor to edit the document.
+### Prototype
+[![Prototype](https://lh3.googleusercontent.com/pw/AP1GczPm4kL3t0wYScnUbDJL8TPLS9JZTcyapq_o92RO-3LskB5G5TZvlL5kZ7Vn7qYm5yGjAeSLAt4YPc-5DDbL1tmxxbSsUUcL-MwBZmxIJxu1FfQ2Fw=w2400)](https://lh3.googleusercontent.com/pw/AP1GczPm4kL3t0wYScnUbDJL8TPLS9JZTcyapq_o92RO-3LskB5G5TZvlL5kZ7Vn7qYm5yGjAeSLAt4YPc-5DDbL1tmxxbSsUUcL-MwBZmxIJxu1FfQ2Fw=w2400)
+
+With the second design, I implemented interlocking boxes to represent conferences, allowing for an easy comparison of conferences by visually organizing teams within each block. I’m still refining the layout for conference and team blocks, including scaling and colors, to make sure the visualization is clear and informative.
+
+Some potential features include:
+- **Conference Views**: Allowing users to view a single conference independently.
+- **Hover Interactions**: Showing detailed stats when hovering over a team.
+- **Conference Stat Averages**: Displaying summary stats for each conference.
+- **Animation**: Potentially animating teams based on their seed order.
+
 
 ## Open Questions
 
